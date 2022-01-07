@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Real Madrid CF</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Projektni zadatak">
+		<meta name="keywords" content="Ključne riječi o Real Madridu">
+		<meta name="author" content="Filip Čabraja">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/real-madrid.ico">
+	</head>
+<body>
+	<header>
+		<div class="hero-image"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="news.html">News</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about.html">About</a></li>
+			  <li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <main>
+        <h1>Contact us:</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0042564824057!2d-3.6905223843069956!3d40.4530427613534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sStadion%20Santiago%20Bernab%C3%A9u!5e0!3m2!1shr!2shr!4v1641409486867!5m2!1shr!2shr" width="925" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="firstname">First Name *</label>
+				<input type="text" id="firstname" name="firstname" placeholder="Your name.." required>
+
+				<label for="lastname">Last Name *</label>
+				<input type="text" id="lastname" name="lastname" placeholder="Your last name.." required>
+				
+				<label for="email">Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+				  <option value="ES">Spain</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="FR">France</option>
+				  <option value="PT">Portugal</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+    </main>
+
+    <footer>
+		<p>Copyright &copy; 2021 Filip Čabraja. <a href="https://github.com/cabraja0401/cabraja0401"><img src="images/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+
+</body>
+</html>
