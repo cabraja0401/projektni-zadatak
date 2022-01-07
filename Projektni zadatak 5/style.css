@@ -1,0 +1,142 @@
+body, html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+footer {
+	display:block;
+	text-align: center;
+
+}
+.hero-image {
+	background-image: url("images/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+h1,h2 {
+	margin: 1em;
+	font-size: 2em;
+}
+h1 {
+	font-size: 1.7em;
+	color: #00529F;
+}
+h2 {
+	font-size: 1.7em;
+	color: #00529F;
+}
+main a {
+	color: rgb(128, 128, 128);
+	text-decoration: none;
+}
+main a:hover {
+	color: rgb(128, 128, 128);
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted rgb(128, 128, 128);
+	clear: both;
+}
+.news img {
+	width: 15%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #00529F;
+}
+.news hr {
+	margin: 1em;
+	border: 1px double #00529F;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 45%;
+	border: 2px solid #FEBE10;
+}
+figcaption {
+	font-size: 85%;
+	
+}
+img {
+	width: 100%;
+}
+
+footer {
+	background-color: grey;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 32px;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
